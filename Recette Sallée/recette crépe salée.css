@@ -1,0 +1,35 @@
+nav{
+    background-color: rgb(29, 29, 70);
+    height: 50px;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+.image-container img{
+    display: block;
+    margin: 0 auto;
+}
+img{
+    border-radius: 40%;
+    padding: 10px;
+}
+.image-container img {
+    display: block;
+    margin: auto;   
+}
+body{
+    background-color: bisque;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
