@@ -1,0 +1,155 @@
+/* Yannick ANTHONY 4PPA RJ Marketing */
+
+
+
+/* style de base du corps de la page */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+/* style de la section principale de la page */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+/* style du titre de la section */
+.recettes-sucrees {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+  }
+  
+  .recette {
+    width: 45%;
+    margin-bottom: 30px;
+    text-align: justify;
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+  }
+  
+
+  /* style de la description de la section */
+  section .description {
+    background-color: #f7eea6;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  section .description .bandeau {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+  }
+  
+
+  /* style du contenu de la section (les différentes recettes) */
+  .recette img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .recette h3 {
+    background-color: #F5DEB3;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .recette p {
+    background-color: #e7ffd8;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: match-parent;
+  }
+  
+
+/* Style du bouton pour retourner en haut de la page */
+  .retour-haut {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .retour-haut a {
+    color: #fff;
+    background-color: #eb5757;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .retour-haut a:hover {
+    background-color: #ff7d7d;
+  }
+
+  
+/* Style du bandeau de bas de page avec les mentions légales */
+  footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .mentions-legales ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .mentions-legales li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .mentions-legales li a {
+    color: #000;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .mentions-legales li a:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+
+/* Ajout de l'indication de copyright */
+footer {
+  position: relative;
+}
+
+footer .copyright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
