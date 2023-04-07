@@ -1,12 +1,14 @@
 /* Yannick ANTHONY 4PPA RJ Marketing */
 
 
-
 /* style de base du corps de la page */
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f7f3e9; /* Couleur de fond */
+  color: #333; /* Couleur du texte */
 }
 
 
@@ -19,9 +21,44 @@ main {
   align-items: center;
 }
 
+/* style de la bannière de haut de page */
 header {
   text-align: center;
   margin-bottom: 30px;
+  background-color: #5ba37b; /* Couleur du fond de l'en-tête */
+  padding: 20px;
+}
+
+
+/* mise en page par défaut du navigateur */
+h1 {
+  color: #fff; /* Couleur du texte de l'en-tête */
+  font-family: 'Lucida Sans Unicode', sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+  list-style-type: none;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  background-color: #555;
 }
 
 
@@ -46,10 +83,12 @@ header {
 
   /* style de la description de la section */
   section .description {
+    font-family: 'Lucida Sans Unicode', sans-serif;
     background-color: #f7eea6;
     padding: 10px;
     margin-bottom: 20px;
     text-align: center;
+    border-radius: 50px;
   }
   
   section .description .bandeau {
@@ -69,15 +108,17 @@ header {
   }
   
   .recette h3 {
+    font-family: 'Lucida Sans Unicode', sans-serif;
     background-color: #F5DEB3;
     border: 1px solid #000000;
     padding: 10px;
     margin-top: 0;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     text-align: center;
   }
   
   .recette p {
+    font-family: 'Lucida Sans Unicode', sans-serif;
     background-color: #e7ffd8;
     border: 1px solid #000000;
     padding: 10px;
@@ -95,7 +136,7 @@ header {
   
   .retour-haut a {
     color: #fff;
-    background-color: #eb5757;
+    background-color: #5ba37b;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -103,7 +144,7 @@ header {
   }
   
   .retour-haut a:hover {
-    background-color: #ff7d7d;
+    background-color: #5ba37b7d;
   }
 
   
